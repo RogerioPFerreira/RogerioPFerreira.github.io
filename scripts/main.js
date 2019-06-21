@@ -4,10 +4,10 @@ var myHeading = document.querySelector('h1');
 
 myImage.onclick = function() {
     var mySrc = myImage.getAttribute('src');
-    if(mySrc === "C:/HTML-Estudo/site-teste/imagens/onda.jpg") {
-      myImage.setAttribute ('src',"C:/HTML-Estudo/site-teste/imagens/praia.jpg");
+    if(mySrc === "/HTML-Estudo/site-teste/imagens/onda.jpg") {
+      myImage.setAttribute ('src',"/HTML-Estudo/site-teste/imagens/praia.jpg");
     } else {
-      myImage.setAttribute ('src',"C:/HTML-Estudo/site-teste/imagens/onda.jpg");
+      myImage.setAttribute ('src',"/HTML-Estudo/site-teste/imagens/onda.jpg");
     }
 }
 
