@@ -1,0 +1,44 @@
+html { 
+  font-size: 15px; /* px significa "pixels": o tamanho da fonte base é agora de 10 pixels */ 
+  font-family: 'Aguafina Script', cursive; /* este deve ser o nome da fonte que você obteve no Google Fonts */ 
+  background-color: #00539F;
+}
+
+body {
+  width: 600px;
+  margin: 0 auto;
+  background-color: #FF9500;
+  padding: 0 20px 20px 20px;
+  border: 5px solid black;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+  margin: 0;
+  padding: 20px 0;    
+  color: #00539F;
+  text-shadow: 3px 3px 1px black;
+}
+
+p, li {
+  font-size: 20px;
+  line-height: 3;
+  letter-spacing: 1px;
+}
+
+/*p {
+  color: red;
+  width: 500px;
+  border: 1px solid black;
+}
+
+li {
+  color: blue;
+}
+*/
